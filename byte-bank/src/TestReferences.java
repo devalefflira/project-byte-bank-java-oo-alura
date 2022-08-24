@@ -15,5 +15,11 @@ public class TestReferences {
 		System.out.println("The balance of account_002 is: " + 
 		account_002.balance);
 		
+		if (account_001 == account_002) {
+			System.out.println("É a mesma coisa");
+		}
+		
+		System.out.println(account_001);
+		System.out.println(account_002);
 	}
 }
